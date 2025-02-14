@@ -30,7 +30,7 @@ export default function GetinPage() {
           <div className="w-full md:w-1/2 mt-0 flex justify-center items-center flex-col bg-black-100 " id='maindd'>
            <div className=' flex justify-center items-center w-full h-[50%]'>
            <Image 
-              src="/getintouch.jpg" // Make sure the image path is correct
+              src="https://maheshkumar77.github.io/New_portfolio_use_Nextjs/getintouch.jpg" // Make sure the image path is correct
               alt="Iron Man Image" 
               className="rounded-xl shadow-md" 
               width={400} 
