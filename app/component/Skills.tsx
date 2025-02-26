@@ -9,14 +9,16 @@ import { SiTypescript } from "react-icons/si";
 import { SiVite } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
 import { SiAuthentik } from "react-icons/si";
+import { IoLogoFirebase } from "react-icons/io5";
+import { SiRedux } from "react-icons/si";
 import '../css/style.css';
 
 const Skills = () => {
   const transition = { duration: 1.9, ease: "easeInOut" }; // Unified transition
 
   return (
-    <div className="flex justify-center items-center w-full h-[80vh] flex-col">
-      <div className="w-auto h-auto text-center overflow-hidden mt-1">
+    <div className="flex justify-center items-center w-full h-[80vh] flex-col ">
+      <div className="w-auto h-screen text-center overflow-hidden mt-1">
         
         <motion.div
         initial={{ opacity: 0, x: 150 }}
@@ -244,8 +246,37 @@ const Skills = () => {
             Auth.Js
           </p>
         </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={transition}
+          className="flex justify-center items-center flex-col  "
+        >
+       
+          < IoLogoFirebase
+           className="text-6xl text-blue-800" />
+          
+          <p className="text-xl text-white font-semibold">
+            Firebase
+          </p>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={transition}
+          className="flex justify-center items-center flex-col  "
+        >
+       
+          < SiRedux
+           className="text-6xl text-blue-800" />
+          
+          <p className="text-xl text-white font-semibold">
+          Redux
+          </p>
+        </motion.div>
         
        </div>
+       
     
     </div>
   );

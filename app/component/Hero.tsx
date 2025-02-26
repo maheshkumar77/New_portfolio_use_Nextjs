@@ -3,9 +3,9 @@ import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/textgenerateeffect'
 import Bordermagic from './ui/Bordermagic'
 import { FaLocationArrow } from 'react-icons/fa'
-import HoverEffect from "./welcome"
+import Welcome from "./welcome"
 import Iconicstyle from './Iconicstyle'
-import Resume from './Resumepdf'
+
 const Hero = () => {
   return (
     <div className=' pb20 pt-36'>
@@ -20,16 +20,20 @@ const Hero = () => {
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
      
     </div>
-    <HoverEffect/>
+    <Welcome/>
     <div className=' flex justify-center relative mt-20 z-10 '>
         <div className=' max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
-            <h2 className=' uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>
-              Welcome To My World
+            <h2 className=' uppercase tracking-widest text-xs text-center text-blue-100 w-[50%]'>
+             
+              <TextGenerateEffect
+              className=' text-center text-xl'
+               words=' Welcome To My World Let’s Create Something Powerful'
+              />
             </h2>
-            <Resume/>
+         
             <TextGenerateEffect
             className=' text-center text-[40px] md:text-5xl lg:text-6xl'
-            words='Hi, I’m Mahesh Kumar Sahu'
+            words='Hi, I’m Mahesh Kumar Sahu '
             />
             <Iconicstyle/>
             

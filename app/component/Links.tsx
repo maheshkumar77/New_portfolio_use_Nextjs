@@ -27,7 +27,7 @@ export function FloatingDockDemo() {
       icon: (
         <CiLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "https://www.linkedin.com/in/maheshkumarsahu/",
+      href: "https://www.linkedin.com/in/mahesh-kumar-sahu-860898350/",
     },
     {
       title: "Gmail",

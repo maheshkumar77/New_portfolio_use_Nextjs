@@ -12,7 +12,9 @@ import { FaMessage } from "react-icons/fa6";
 import { LampDemo } from './component/Aboutright'
 import Skills from './component/Skills'
 import { RiBaseStationLine } from "react-icons/ri";
-import GetinPage from './component/Getinbutton'
+import { TbLayoutSidebarLeftExpandFilled } from "react-icons/tb";
+import Expriance from './component/expriace'
+
 
 
 const page = () => {
@@ -23,6 +25,7 @@ const page = () => {
         {name:'Home' , link:"#home", icon:<FaHome/>},
         {name:'About', link:"#About", icon:<MdOutlineRoundaboutRight/>},
         {name:'Work', link:"#work", icon:<IoCodeWorkingOutline/>},
+        {name:'Experience', link:"#expriace", icon:<TbLayoutSidebarLeftExpandFilled/>},
         {name:'HireMe' ,link:"#hireMe", icon:<FaMessage/>},
         {name:'FindMeOnOnline' ,link:"#online", icon:<RiBaseStationLine/>}
       ]}/>
@@ -32,7 +35,9 @@ const page = () => {
      <div id='About' className=' w-[100%]'>
      <WobbleCardDemo/>
      </div>
-     
+     <div id='expriace'>
+      <Expriance/>
+     </div>
  
      <div id='skill' >
      <Skills/>
