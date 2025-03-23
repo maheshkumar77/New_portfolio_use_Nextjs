@@ -19,13 +19,13 @@ import '../css/expriance.css'
       id='expi' className='w-full h-auto flex justify-center items-center  shadow-lg rounded-lg p-6 transform transition-all duration-500 hover:scale-105 hover:shadow-2xl'>
         <div className='w-full h-auto flex justify-start items-start flex-col gap-4'>
           <p className='text-3xl font-bold font-mono text-yellow-50'>
-            Full-stack Developer Intern
+            Full-stack Developer Intern (Internship)
           </p>
           <p className='text-xl font-medium text-gray-600'>
-            Prodigy InfoTech
+            At Prodigy InfoTech
           </p>
           <p className='text-lg font-light text-gray-500'>
-            Dec 2024 - Feb 2025
+            Nov 2024 - Mar 2025
           </p>
         </div>
       </div>
